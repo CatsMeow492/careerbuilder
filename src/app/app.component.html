@@ -62,10 +62,10 @@
     <div>
       <div *ngFor="let job of jobs; let i = index" class="job-item">
         <div class="title">
-          {{job.title}}
+          {{job.companyName}}
         </div>
         <div class="meta">
-          {{job.type}}  &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;{{job.location}} &nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;{{job.postedAt}}
+          {{job.location}} &nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;{{job.createdDate}}
         </div>
         <div class="description">
           {{job.description}}
